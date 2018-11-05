@@ -16,6 +16,7 @@ object ApplyDemo{
   }
 }
 
+
 object Test{
   def main(args: Array[String]): Unit = {
     val applyDemo = ApplyDemo("jingjing",3,34)

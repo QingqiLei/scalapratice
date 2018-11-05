@@ -60,6 +60,5 @@ object Test {
     println(l1 intersect l2) //intersection
 
     println( l1 diff l2) //distinctive elements in the l1 (left)
-
   }
 }
