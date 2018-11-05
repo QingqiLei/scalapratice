@@ -1,16 +1,12 @@
 package scala.method
 
-class LazyDemo {
-
-}
-
 object LazyDemo {
   def main(args: Array[String]): Unit = {
-    val property = init() // 没有用lazy 修饰
+    val property = init()      //  not lazy
     println("after init()")
     println(property)
 println("+++++++++++++++++")
-    lazy val property1 = init() // 用lazy 修饰,惰性变量，只能是不可变变量，
+    lazy val property1 = init() //  lazy,只能是不可变变量(val or immutable)，
     println("after init()")
     println(property1)
   }
