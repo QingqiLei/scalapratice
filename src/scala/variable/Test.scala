@@ -50,16 +50,16 @@ object Test {
 
     val list1 = List(List(1,2,3), List(4,5), List(6,7))
     println("23: "+list1.flatten.reduce(_+_))
-    println("24: "+list1.aggregate(10)(_+_.sum,_+_)) // 局部聚合，全局聚合
+    // first _ is 10, second _ is the list, third and fourth is the sum of each sublist
+    println("24: "+list1.aggregate(10)(_+_.sum,_+_)) // 局部聚合, 全局聚合
 
     val l1 = List(1,2,3)
     val l2 = List(2,3,4)
-    println("25: "+l1 union l2)
+    println(l1 union l2) //all
 
-    println("26: "+l1 intersect l2)
+    println(l1 intersect l2) //intersection
 
-    println("27: "+ l1 diff l2)
+    println( l1 diff l2) //distinctive elements in the l1 (left)
 
   }
-
 }
