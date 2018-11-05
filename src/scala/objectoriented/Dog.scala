@@ -4,19 +4,24 @@ package scala.objectoriented
   * 可以相互访问私有方法和属性
   */
 class Dog {
+
 private var name = "erha"
+
   def printName():Unit ={
     println(Dog.CONTANT + name)
   }
 }
 
 object Dog{
+
 private val CONTANT="WANGWANG"
 
   def main(args: Array[String]): Unit = {
-    val p = new Dog;
-    p.printName()
+
+    val p = new Dog; // an object
+    p.printName()           // output
+    println(p.name)         // output
     p.name = "dahuang"
-    p.printName()
+    p.printName()           // output
   }
 }
