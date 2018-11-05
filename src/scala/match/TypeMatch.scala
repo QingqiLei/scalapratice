@@ -17,4 +17,6 @@ object MatchType{
     }
   }
 }
+class MatchTest{
 
+}
