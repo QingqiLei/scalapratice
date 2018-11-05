@@ -9,8 +9,6 @@ class ProtectedDemo {
   */
 class Vehicle {
   protected def checkEngine() = println("checked engine")
-
-
 }
 
 class Car extends Vehicle {
