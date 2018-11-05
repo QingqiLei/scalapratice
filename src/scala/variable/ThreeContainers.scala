@@ -11,10 +11,8 @@ object ThreeContainers {
     val t = ("java",1,1L,3.14,(1,"45")) // tuple
     val list2 = 0 :: list1      // return a new list, list1 isn't changed
     println("0 list1: "+ list1) //
-
     println("1 list2: "+list2)
     println("2 list2: "+list2.::(5)) // add 5
-
     println("3 list2: "+ (0+: list2))  // add 0, (::)(.::)(+:) they are the same, add element to the end(leftest)
 
     println(list1 :+ 4) // add to tail, return a new list
@@ -70,7 +68,6 @@ println(listBuffer1 :+ 100) // return a new list
     import scala.collection.immutable.HashMap
     val map2 = new HashMap[String, Int]{} //immutable
 //    map2.put("first",1) // Exception
-
 
   }
 
