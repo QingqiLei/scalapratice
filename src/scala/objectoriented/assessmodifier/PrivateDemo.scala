@@ -15,7 +15,7 @@ package society {
       def help(another: Executive) {
         println(another.workDetails)
         println(this.secret)
-        println(another.secret) // Exception, inaccessible from this place
+        //println(another.secret) // Exception, inaccessible from this place
       }
     }
 
@@ -26,7 +26,7 @@ package society {
     class Acquaintance {
       def socialize(person: professional.Executive) {
         println(person.friends)
-        println(person.workDetails) //会报错
+        //println(person.workDetails) //会报错
       }
     }
 
