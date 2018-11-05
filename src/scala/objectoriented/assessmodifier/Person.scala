@@ -1,5 +1,11 @@
-package scala.objectoriented
+package objectoriented.assessmodifier
 
+/**
+  * summary:
+  * val immutable, var mutable
+  *
+  *
+  */
 // public is default
 class Person {
   // 属性， immutable，相当于只有get方法，  var 有get 和set
@@ -22,6 +28,4 @@ object Person { // 伴生对象
   }
 }
 
-object Test1 {
 
-}

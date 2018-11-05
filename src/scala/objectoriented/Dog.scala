@@ -2,6 +2,8 @@ package scala.objectoriented
 // 与类名相同，被object修饰，
 /**
   * 可以相互访问私有方法和属性
+  *
+  *
   */
 class Dog {
 

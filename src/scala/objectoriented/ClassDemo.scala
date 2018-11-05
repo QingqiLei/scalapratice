@@ -9,11 +9,10 @@ object ClassDemo {
     println(human.distance)
 
   }
-
 }
 
 
-trait Flyable{
+trait Flyable{  // interface
   val distance:Int = 1000
 
   def fight:String
@@ -23,7 +22,7 @@ trait Flyable{
   }
 }
 
-abstract class Animal{
+abstract class Animal{ // abstract class
   val name :String
   def run():String
 
@@ -32,7 +31,7 @@ abstract class Animal{
   }
 }
 
-class Human extends Animal with Flyable{
+class Human extends Animal with Flyable{ // extends abstract class implements interface
   override val name: String = "张三"
 
   override def run(): String = "i can run"
