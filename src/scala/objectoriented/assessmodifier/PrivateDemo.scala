@@ -29,6 +29,5 @@ package society {
         //println(person.workDetails) //会报错
       }
     }
-
   }
 }
