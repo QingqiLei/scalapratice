@@ -2,7 +2,7 @@ package scala.`match`
 
 
 
-object MatchList {
+object ListMatch {
   def main(args: Array[String]): Unit = {
     val arr = Array(3,4,5,6)
 
@@ -24,7 +24,7 @@ object MatchList {
       case _ =>println("not matched")
     }
 
-    val list1 = List(0,1,2,3)
+    val list1 = ListMatch(0,1,2,3)
     list1 match{
       case 0:: Nil =>println("case1: 0")
       case a::b::c::d::Nil =>println(s"case2: $a,$b,$c,$d") //去掉Nil， d就成了list

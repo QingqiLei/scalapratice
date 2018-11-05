@@ -2,7 +2,7 @@ package scala.`match`
 
 import scala.util.{Random}
 
-object MatchStr{
+object StringMatch{
   def main(args: Array[String]): Unit = {
     val arr = Array("s","f","a","v")
     val name = arr(Random.nextInt(arr.length))
