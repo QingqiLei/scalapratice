@@ -1,7 +1,4 @@
 
-
-
-
 object ListMatch {
   def main(args: Array[String]): Unit = {
     val arr = Array(3,4,5,6)

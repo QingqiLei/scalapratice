@@ -1,5 +1,4 @@
 
-
 import scala.util.Random
 
 object CaseClass {

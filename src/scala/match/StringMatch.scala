@@ -13,7 +13,6 @@ object StringMatch{
       case "a" =>println("a")
       case "v" =>println("v")
       case _ => println("nothing")
-
     }
   }
 }

@@ -18,6 +18,3 @@ object MatchType{
   }
 }
 
-class MatchTest{
-
-}
