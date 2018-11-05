@@ -37,9 +37,5 @@ object MapTupleArray {
     val res = arr1 zip arr2
     println(res.toBuffer)
 
-
-
-
-
   }
 }
